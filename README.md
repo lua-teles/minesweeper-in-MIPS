@@ -1,2 +1,2 @@
 # minesweeper-in-MIPS
-Trabalho Minesweeper em MIPS
+ # Trabalho Minesweeper em MIPS
