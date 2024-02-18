@@ -9,4 +9,4 @@
 - [checkVictory](#checkVictory)
 
 ### Play
-A funçao Play é responsavel pela execução das jogadas efetuadas pelo jogador. Ela analiza a coodenada dada pelo jogador, por meio do numero da linha e da coluna fornecida pelo mesmo, e verifica se uma bomba foi atingida. Se esse for o caso, a função encerra o jogo e o jogador perde. Se nenhuma bomba foi atingida, então o jogo continua sendo executado.
+A funçao Play é responsavel pela execução das jogadas efetuadas pelo jogador. Ela analiza a coodenada dada pelo jogador, por meio do numero da linha [row] e da coluna[column] fornecida pelo mesmo, e verifica se uma bomba foi atingida. Se esse for o caso, a função encerra o jogo e o jogador perde. Se nenhuma bomba foi atingida, então o jogo continua sendo executado.
