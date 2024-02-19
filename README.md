@@ -24,5 +24,5 @@ ao fim as duas retornam 1 quando nenhuma bomba é atingida
 Essa função é responsavel pela, comoo seu proprio nome diz, contagem de bombas adjacentes à coordenada escolhida pelo jogador. A countAdjacentsBombs só irá ser executada se a coordenada escolhida pelo jogador não tiver uma bomba. Ela auxilia o jogador a saber qual deve ser sua próxima rodada.
 ![countc](fotos/countc.png)
 
-Com a utilização de loops para percorrer o tabuleiro, a função realiza a checagem das celas ao redor da coordenada escolhida para a contagem de bombas vizinhas. Ao encontrar uma bomba o contador é incrementado
+Com a utilização de loops para percorrer o tabuleiro, a função realiza a checagem das celas ao redor da coordenada escolhida para a contagem de bombas vizinhas. Ao encontrar uma bomba o contador é incrementado.
 ![count_mips](fotos/count_mips.png)
