@@ -47,15 +47,15 @@ Por fim, a função devolve o valor da contagem do contador de volta para o main
 A função revealAdjacentCells é uma função recursiva, ou seja, ela se auto chama durante sua execução.
 ![revealc](fotos/revealc.png)
 
-Essa função é responsavel por revelar as celas adjacentes a coordenada escolhida pelo jogador, caso a mesma seja uma cela sem nenhuma bomba ao seu redor, por meio do uso de loops.
+Essa função é responsável por revelar as celas adjacentes à coordenada escolhida pelo jogador, caso a mesma seja uma cela sem nenhuma bomba ao seu redor, por meio do uso de loops.
 
 ![revealmips](fotos/revealmips.png)
 
-Utilizando o tabuleiro e as coordenadas dadas pelo jogador, a função chama a função countAdjacentBombs para verificar se ha mais celas adjacentes a escolhia que tambem não possuem bombas ao redor.
+Utilizando o tabuleiro e as coordenadas dadas pelo jogador, a função chama a função countAdjacentBombs para verificar se há mais celas adjacentes à escolhida que também não possuem bombas ao redor.
 
 ![reveal_mips](fotos/reveal_mips.png)
 
-Enquanto houver celas sem bombas ao redor da coordenada excolhida a função continuará a se chamar.
+Enquanto houver celas sem bombas ao redor da coordenada escolhida, a função continuará a se chamar.
 ![reveal-mips](fotos/reveal-mips.png)
 
 
@@ -64,8 +64,12 @@ A função checkVictory verifica se o jogador venceu o jogo.
 
 ![checkc](fotos/checkc.png)
 
+Utilizando mais uma vez loops, a função corre por todo o tabuleiro contando o número de celas reveladas.
 ![checkmips](fotos/checkmips.png)
 
+A mesma também realiza o cálculo da quantidade de celas sem bombas e realiza a comparação com o número de celas reveladas já contadas, como pode ser visto a seguir.
+![check](fotos/check.png)
+Por fim, a função manda de volta para o main 0, se o jogador ganhar ou 1 se ainda houver celas a serem reveladas.
 ![check_mips](fotos/check_mips.png)
 
 
