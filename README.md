@@ -27,4 +27,4 @@ Essa função é responsavel pela, comoo seu proprio nome diz, contagem de bomba
 
 Com a utilização de loops para percorrer o tabuleiro, a função realiza a checagem das celas ao redor da coordenada escolhida para a contagem de bombas vizinhas. Ao encontrar uma bomba o contador é incrementado.
 
-![count_mips](fotos/count_mips.png)
+![countmips](fotos/countmips.png)
