@@ -70,7 +70,9 @@ Utilizando mais uma vez loops, a função corre por todo o tabuleiro contando o 
 A mesma também realiza o cálculo da quantidade de celas sem bombas e realiza a comparação com o número de celas reveladas já contadas, como pode ser visto a seguir.
 
 ![check](fotos/check.png)
+
 Por fim, a função manda de volta para o main 0, se o jogador ganhar ou 1 se ainda houver celas a serem reveladas.
+
 ![check_mips](fotos/check_mips.png)
 
 
