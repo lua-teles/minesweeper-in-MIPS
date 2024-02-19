@@ -16,9 +16,10 @@ Ambas as funções utilizam a matriz do tabuleiro e as coordenadas dadas pelo jo
 
 ![playmips](fotos/playmips.png)
 
-Durante sua execussão ela chama mais duas funções o countAdjacentsBombs e o revealNeighboringCells 
-![play_mips](fotos/play_mips)
-ao fim as duas retornam 1 quando nenhuma bomba é atingida
+Durante sua execussão ela chama mais duas funções o countAdjacentsBombs e o revealNeighboringCells.
+![play_mips](fotos/play_mips.png)
+
+Ao fim as duas retornam 1 quando nenhuma bomba é atingida
 
 ### countAdjacentBombs
 Essa função é responsavel pela, comoo seu proprio nome diz, contagem de bombas adjacentes à coordenada escolhida pelo jogador. A countAdjacentsBombs só irá ser executada se a coordenada escolhida pelo jogador não tiver uma bomba. Ela auxilia o jogador a saber qual deve ser sua próxima rodada.
