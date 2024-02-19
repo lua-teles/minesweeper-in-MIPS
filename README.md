@@ -35,3 +35,11 @@ Com a utilização de loops para percorrer o tabuleiro, a função realiza a che
 
 A seguir, como se pode ver na imagem é a criação de um dos loops da função. 
 ![for](fotos/for.png)
+
+Ela utiliza a linha dada pelo usuario por meio do registrador ($s0) e subtrai criando assim o  contador do primeiro for, o i. Da mesma forma, mas desta vez somando um ao registrador é criado a restrição do for.
+Esse loop só irá parar quando seu i ter o mesmo valor da restrição.
+
+Por fim a função devolve o valor da contagem do contador de volta para o main, onde, então, é registrado no print board
+![count_mips](fotos/count_mips.png)
+
+
