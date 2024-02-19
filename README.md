@@ -21,6 +21,10 @@ Durante sua execussão ela chama mais duas funções o countAdjacentsBombs e o r
 
 Ao fim as duas retornam 1 quando nenhuma bomba é atingida
 
+![conta](fotos/conta.png)
+
+Conta responsavel por encontrar a coordenada dada pelo usuario. 
+
 ### countAdjacentBombs
 Essa função é responsavel pela, comoo seu proprio nome diz, contagem de bombas adjacentes à coordenada escolhida pelo jogador. A countAdjacentsBombs só irá ser executada se a coordenada escolhida pelo jogador não tiver uma bomba. Ela auxilia o jogador a saber qual deve ser sua próxima rodada.
 ![countc](fotos/countc.png)
@@ -28,3 +32,6 @@ Essa função é responsavel pela, comoo seu proprio nome diz, contagem de bomba
 Com a utilização de loops para percorrer o tabuleiro, a função realiza a checagem das celas ao redor da coordenada escolhida para a contagem de bombas vizinhas. Ao encontrar uma bomba o contador é incrementado.
 
 ![countmips](fotos/countmips.png)
+
+A seguir, como se pode ver na imagem é a criação de um dos loops da função. 
+![for](fotos/for.png)
